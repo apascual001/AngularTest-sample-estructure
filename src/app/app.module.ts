@@ -10,6 +10,7 @@ import { ClassroomModule } from './Views/classroom/classroom.module';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { LayoutComponent } from './Components/layout/layout.component';
+import { LoginModule } from './Views/login/login.module';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LayoutComponent } from './Components/layout/layout.component';
     StudentFileModule,
     StatisticsModule,
     ReviewsModule,
-    ClassroomModule
+    ClassroomModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
