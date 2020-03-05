@@ -3,22 +3,29 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
-import { ToastComponentComponent } from './Components/toast-component/toast-component.component';
-import { Classroom2Module } from './Views/classroom2/classroom2.module';
+import { StudentFileModule } from './Views/student-file/student-file.module';
+import { StatisticsModule } from './Views/statistics/statistics.module';
+import { ReviewsModule } from './Views/reviews/reviews.module';
+import { ClassroomModule } from './Views/classroom/classroom.module';
+import { HeaderComponent } from './Components/header/header.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { LayoutComponent } from './Components/layout/layout.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    ToastComponentComponent
-
+    HeaderComponent,
+    FooterComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Classroom2Module
+    StudentFileModule,
+    StatisticsModule,
+    ReviewsModule,
+    ClassroomModule
   ],
   providers: [],
   bootstrap: [AppComponent]

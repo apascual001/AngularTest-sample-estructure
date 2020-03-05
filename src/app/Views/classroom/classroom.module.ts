@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ClassroomViewComponent } from './classroom-view/classroom-view.component';
-import { SchedureRoomComponent } from './schedure-room/schedure-room.component';
 
+import { ClassroomRoutingModule } from './classroom-routing.module';
+import { ClassroomViewComponent } from './classroom-view/classroom-view.component';
 
 
 @NgModule({
-  declarations: [ClassroomViewComponent, SchedureRoomComponent],
+  declarations: [ClassroomViewComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    ClassroomRoutingModule
+  ],
+  exports: [
+    ClassroomViewComponent
   ]
 })
 export class ClassroomModule { }
