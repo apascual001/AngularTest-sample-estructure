@@ -23,12 +23,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     FontAwesomeModule,
-    AppRoutingModule,
     StudentFileModule,
     StatisticsModule,
     ReviewsModule,
     ClassroomModule,
-    LoginModule
+    LoginModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
