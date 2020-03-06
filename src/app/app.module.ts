@@ -11,7 +11,7 @@ import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { LayoutComponent } from './Components/layout/layout.component';
 import { LoginModule } from './Views/login/login.module';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { LoginModule } from './Views/login/login.module';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     StudentFileModule,
     StatisticsModule,
     ReviewsModule,
