@@ -6,11 +6,18 @@ import { ClassroomViewComponent } from './classroom-view/classroom-view.componen
 import { ClassroomSeatsComponent } from './classroom-seats/classroom-seats.component';
 import { StudentPositionComponent } from './student-position/student-position.component';
 
+// graficos
+import { ChartsModule } from 'ng2-charts';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [ClassroomViewComponent, ClassroomSeatsComponent, StudentPositionComponent],
   imports: [
     CommonModule,
+    ChartsModule,
+    TooltipModule.forRoot(),
+    NgCircleProgressModule.forRoot({radius: 20, showBackground: true}),
     ClassroomRoutingModule
   ]
 })
