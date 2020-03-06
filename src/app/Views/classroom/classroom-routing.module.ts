@@ -3,12 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import {ClassroomViewComponent} from './classroom-view/classroom-view.component';
 
-const classrommRoutes: Routes = [
+const routes: Routes = [
   { path: 'classroom-view',  component: ClassroomViewComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(classrommRoutes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
 export class ClassroomRoutingModule { }
