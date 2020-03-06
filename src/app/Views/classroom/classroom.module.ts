@@ -10,9 +10,6 @@ import { ClassroomViewComponent } from './classroom-view/classroom-view.componen
   imports: [
     CommonModule,
     ClassroomRoutingModule
-  ],
-  exports: [
-    ClassroomViewComponent
   ]
 })
 export class ClassroomModule { }
