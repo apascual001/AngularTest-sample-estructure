@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { StudentSeatService, StudentSeat } from '../../../Services/classroom.service';
+import { ClassroomService, StudentSeat } from '../../../Services/classroom.service';
 
 @Component({
   selector: 'app-student-position',
@@ -10,7 +10,7 @@ export class StudentPositionComponent implements OnInit {
   /* students: StudentSeat[] = []; */
   @Input() student: any = {};
 
-  constructor(private _studentSeatService: StudentSeatService) { }
+  constructor(private _studentSeatService: ClassroomService) { }
 
   ngOnInit() {
       // añadir el progreso aleatorio del alumno
