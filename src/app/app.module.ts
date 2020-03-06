@@ -22,12 +22,12 @@ import { LoginModule } from './Views/login/login.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     StudentFileModule,
     StatisticsModule,
     ReviewsModule,
     ClassroomModule,
-    LoginModule
+    LoginModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
