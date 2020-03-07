@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +12,9 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { LayoutComponent } from './Components/layout/layout.component';
 import { LoginModule } from './Views/login/login.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { ChartsModule } from 'ng2-charts';
+/* import { from } from 'rxjs';
+ */
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +24,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
+    ChartsModule,
     FontAwesomeModule,
     StudentFileModule,
     StatisticsModule,
