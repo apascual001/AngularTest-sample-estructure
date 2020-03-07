@@ -1,5 +1,5 @@
 # AngularTest-sample-estructure
-Sample angular files structure
+Sample angular files structure MVVM
 
 Components: Common components throughout the entire project. Ex: student-popup, header, footer...
 
