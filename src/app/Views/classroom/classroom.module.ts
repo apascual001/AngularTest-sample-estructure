@@ -10,9 +10,10 @@ import { StudentPositionComponent } from './student-position/student-position.co
 import { ChartsModule } from 'ng2-charts';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { StudentPopupComponent } from './student-popup/student-popup.component';
 
 @NgModule({
-  declarations: [ClassroomViewComponent, ClassroomSeatsComponent, StudentPositionComponent],
+  declarations: [ClassroomViewComponent, ClassroomSeatsComponent, StudentPositionComponent, StudentPopupComponent],
   imports: [
     CommonModule,
     ChartsModule,
