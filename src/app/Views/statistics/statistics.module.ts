@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { ChartsModule } from 'ng2-charts';
+/* components & modules */
+import { TablesComponent} from './tables/tables.component'
+import { GenrepieComponent } from './stadistics/genrepie/genrepie.component';
 import { StatisticsRoutingModule } from './statistics-routing.module';
 import { StadisticsComponent } from './stadistics/stadistics.component';
 import { PeoplepieComponent } from './stadistics/peoplepie/peoplepie.component';
-import { ChartsModule } from 'ng2-charts';
-import { GenrepieComponent } from './stadistics/genrepie/genrepie.component';
-import {TablesComponent} from './tables/tables.component'
+
 
 @NgModule({
   declarations: [ StadisticsComponent, PeoplepieComponent, GenrepieComponent,TablesComponent],
