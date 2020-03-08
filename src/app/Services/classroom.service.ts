@@ -1,11 +1,6 @@
 import { Injectable } from '@angular/core';
 
-@Injectable(
-  //treure?? noestà en original
-  //{
-  //providedIn: 'root'
-//}
-)
+@Injectable()
 export class ClassroomService {
   // datos (falsos) para obtener posición
   private students: StudentSeat[] = [
