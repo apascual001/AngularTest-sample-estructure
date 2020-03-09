@@ -30,3 +30,11 @@ button.submit-btn:hover {
     border-radius: 100%;
     width: 60px;
 }
+
+// menu
+
+a:hover {
+    color: $white;
+    background-color: $pink;
+    border-radius: .25rem;
+}
