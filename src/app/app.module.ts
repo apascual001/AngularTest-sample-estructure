@@ -12,13 +12,15 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { LayoutComponent } from './Components/layout/layout.component';
 import { LoginModule } from './Views/login/login.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NoimagePipe } from './Pipes/noimage.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    LayoutComponent
+    LayoutComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
