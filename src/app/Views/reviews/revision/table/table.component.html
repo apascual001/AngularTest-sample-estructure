@@ -39,8 +39,8 @@
                         {{ student.firstName }} {{ student.lastName }}
                     </td>
                     <td class="row-size text-center" *ngFor="let exercises of student.exercises; index as i" [ngClass]="[{'No entregado': 'table-bg-default', 'Entregado': 'table-bg-done', 'Corregido': 'table-bg-corrected', 'A revisar': 'table-bg-reviewed'}[ exercises.state ]]">
-<!--                         <app-modal [data]="exercises"></app-modal>
- -->                    </td>
+                        <app-modal [data]="exercises"></app-modal>
+                    </td>
                 </tr>
             </tbody>
         </table>
