@@ -4,8 +4,8 @@ import { FormBuilder } from '@angular/forms';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker/';
 // revision component imports
-import { ReviewStudentsService } from '../../../../Services/review-students.service';
-import { ExercisesReview } from '../../../../Models/exercisesReview';
+import { ReviewStudentsService } from '../../../Services/review-students.service';
+import { ExercisesReview } from '../../../Models/exercisesReview';
 
 @Component({
   selector: 'app-modal',

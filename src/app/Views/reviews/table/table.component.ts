@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { StudentReview } from '../../../../Models/studentsReview';
-import { ReviewStudentsService } from '../../../../Services/review-students.service';
+import { StudentReview } from '../../../Models/studentsReview';
+import { ReviewStudentsService } from '../../../Services/review-students.service';
 
 @Component({
   selector: 'app-table',

@@ -9,12 +9,11 @@ import { NgxPaginationModule } from 'ngx-pagination';
 /* modules & components */
 import { ReviewsRoutingModule } from './reviews-routing.module';
 import { ReviewsViewComponent } from './reviews-view/reviews-view.component';
-import { RevisionComponent } from './revision/revision.component';
-import { TableComponent }   from './revision/table/table.component'; // ?
-import { ModalComponent } from './revision/modal/modal.component';
+import { TableComponent }   from './table/table.component'; 
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
-  declarations: [ReviewsViewComponent,RevisionComponent,TableComponent,ModalComponent],
+  declarations: [ReviewsViewComponent,TableComponent,ModalComponent],
   imports: [
     CommonModule,
     BsDatepickerModule.forRoot(),
