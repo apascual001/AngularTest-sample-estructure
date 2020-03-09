@@ -74,7 +74,7 @@ ngIf para colores front-end, back-end, net (clases) -->
     </button>
 </div>
 <!--modal-->
-<!-- <ng-template #template>
+<ng-template #template>
   <div class="modal-header">
       <h1 class="modal-title pull-left">Alumno</h1>
       <button type="button" class="close pull-right buttonX" aria-label="Close" (click)="modalRef.hide()">
@@ -82,7 +82,7 @@ ngIf para colores front-end, back-end, net (clases) -->
       </button>
   </div>
   <div class="modal-body">
-      <h2 class="mt-1 mb-3">{{selectedStudent.name | uppercase}}</h2>
+      <!-- <h2 class="mt-1 mb-3">{{selectedStudent.name | uppercase}}</h2> Commented as binding property doesn´t work-->
       <div class="form-check">
           <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
           <label class="form-check-label" for="exampleRadios1">
@@ -107,8 +107,8 @@ ngIf para colores front-end, back-end, net (clases) -->
               Android
           </label>
       </div>
-      <button type="button" class="btn button-modal ml-1 mr-2 mt-3" (click)="confirm(); modalRef.hide()">Guardar</button>
-      <button type="button" class="btn button-modal ml-1 mr-2 mt-3" (click)="decline(); modalRef.hide()">Cancelar</button>
+      <!-- <button type="button" class="btn button-modal ml-1 mr-2 mt-3" (click)="confirm(); modalRef.hide()">Guardar</button>
+      <button type="button" class="btn button-modal ml-1 mr-2 mt-3" (click)="decline(); modalRef.hide()">Cancelar</button> Commented as Event binding doesn´t work-->
       <button type="button" class="btn button-modal ml-1 mt-3">Ir a perfil</button>
   </div>
-</ng-template> -->
+</ng-template>
