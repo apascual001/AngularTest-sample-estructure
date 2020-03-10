@@ -10,7 +10,18 @@ import { User } from '../../Models/user.model';
 export class HeaderComponent implements OnInit {
   faSignOutAlt = faSignOutAlt;
   user: User = new User;
+
   constructor() { }
+
+  // logout () {    
+  //   let menu = <HTMLAnchorElement>document.getElementById('menu');
+  //   let login = <HTMLAnchorElement>document.getElementById('login');
+    
+  //   login.classList.remove("d-none");
+  //   menu.classList.add("d-none");
+  
+  //   //TODO: añadir lógica de logout
+  // }
 
   ngOnInit(): void {
   }
