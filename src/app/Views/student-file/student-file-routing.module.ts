@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { StudentComponent } from './student/student.component';
+import { StudentFileViewComponent } from './student-file-view/student-file-view.component';
 
 
 const routes: Routes = [
-  { path: 'student',  component: StudentComponent },
+  { path: 'student-file-view',  component: StudentFileViewComponent },
 
 ];
 

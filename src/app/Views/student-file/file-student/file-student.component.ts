@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 /* own */
 import { Alumno } from './../tables/model/alumno';
 /* import listadeAlumnos from 'src\assets\json\alumnos.json';
- */import listadeAlumnos from './../../../../../assets/json/alumnos.json';
+ */import listadeAlumnos from '../../../../assets/json/alumnos.json';
 /* ? */
-import { StudentSearchService } from '../../../../services/student-search.service';
-import { FilestudentService } from '../file-student/file-student.service';
+import { StudentSearchService } from '../../../services/student-search.service';
+import { FilestudentService } from './file-student.service';
 /* import { Student } from '../../../student';
  */
 
