@@ -4,12 +4,20 @@
           <img src="../../../../assets/img/IT-logo.png" height="40" class="d-inline-block align-top" alt="Logo IT Academy">
       </div>
       
-      <nav class="nav">
-          <a class="black-c nav-link" routerLink="/classroom-view" routerLinkActive="active">Aula</a>
-          <a class="black-c nav-link" routerLink="/reviews-view" routerLinkActive="active">Revisión</a>
-          <a class="black-c nav-link" routerLink="/statistics-view" routerLinkActive="active">Estadísticas</a>
-          <a class="black-c nav-link" routerLink="/student-file-view" routerLinkActive="active">Alumno</a>
-      </nav>
+      <ul class="nav nav-justified">
+          <li class="nav-item">
+            <a class="black-c nav-link" routerLink="/classroom-view" routerLinkActive="active">Aula</a>
+          </li>
+          <li class="nav-item">
+            <a class="black-c nav-link" routerLink="/reviews-view" routerLinkActive="active">Revisión</a>
+          </li>
+          <li class="nav-item">
+            <a class="black-c nav-link" routerLink="/statistics-view" routerLinkActive="active">Estadísticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="black-c nav-link" routerLink="/student-file-view" routerLinkActive="active">Alumno</a>
+          </li>
+      </ul>
 
       <div class="d-flex justify-content-around">
           <img [src]="user.portrait | noimage" class="mr-2 img-thumb img-circle">

@@ -6,5 +6,4 @@ export class User {
     nombre: string;
     portrait: string;
     age: number;
-
 }
