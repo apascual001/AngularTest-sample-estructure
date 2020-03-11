@@ -1,25 +1,23 @@
-import { NgModule } from '@angular/core';
+//import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HeaderComponent } from './Components/header/header.component';
-import { FooterComponent } from './Components/footer/footer.component';
 
-//import {ClassroomModule } from './Views/classroom/classroom.module';
+//import { ResetPasswordRequestComponent } from './Views/login/';
+//import { LoginComponent } from './Views/login/';
+
+import { LayoutComponent } from './Components/layout/layout.component';
+import { LAYOUT_ROUTES } from './Components/layout/layout.routing';
 
 
-const routes: Routes = [
+const APP_ROUTES: Routes = [
+  //{ path: 'login', component: LoginComponent },
+  //{ path: 'login/reset-password', component: ResetPasswordRequestComponent },
   {
-    path:'header',
-    component:HeaderComponent
+    path: 'layout',
+    component: LayoutComponent,
+    children: LAYOUT_ROUTES
   },
-  {
-    path:'footer',
-    component:FooterComponent
-  }
-]
-;
+  //{ path: '**', pathMatch: 'full', redirectTo: 'login' }
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+];
+
+export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES);
