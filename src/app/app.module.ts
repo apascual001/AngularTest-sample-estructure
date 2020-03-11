@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { APP_ROUTING } from './app-routing.module';
+//import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentFileModule } from './Views/student-file/student-file.module';
 import { StatisticsModule } from './Views/statistics/statistics.module';
@@ -31,8 +32,9 @@ import { NoimagePipe } from './Pipes/noimage.pipe';
     ReviewsModule,
     ClassroomModule,
     LoginModule,
-    AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    //AppRoutingModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
