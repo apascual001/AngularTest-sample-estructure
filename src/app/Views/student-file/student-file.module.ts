@@ -11,6 +11,10 @@ import { StudentSearchComponent } from './student-search/student-search.componen
 import { TablesComponent } from './tables/tables.component';
 import { TimeBarComponent } from './time-bar/time-bar.component';
 
+// Services
+import { ExerciseService } from '../../Services/exercise.service';
+import { StudentSearchService } from 'src/app/Services/student-search.service';
+
 @NgModule({
   declarations: [ 
     StudentFileViewComponent,
@@ -24,6 +28,10 @@ import { TimeBarComponent } from './time-bar/time-bar.component';
   imports: [
     CommonModule,
     StudentFileRoutingModule
+  ],
+  providers: [
+    ExerciseService,
+    StudentSearchService
   ]
 })
 export class StudentFileModule { }
