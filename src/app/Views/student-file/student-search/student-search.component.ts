@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { StudentSearch } from '../../../models/student-search';
-import { StudentSearchService } from '../../../services/student-search.service';
+import { StudentSearchService } from '../../../Services/student-search.service';
 import { Select2OptionData } from 'ng2-select2';
 import { Router } from '@angular/router';
 /* ? */
