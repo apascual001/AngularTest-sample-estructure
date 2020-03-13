@@ -1,20 +1,23 @@
+  
 import { Component, OnInit } from '@angular/core';
 /* models */
 import { Student } from '../../../Models/student.model';
 import { STUDENTS } from '../../../Models/studentsMock';
 
 @Component({
-  selector: 'app-statistics-view',
-  templateUrl: './statistics-view.component.html',
-  styleUrls: ['./statistics-view.component.scss']
+  selector: 'app-stadistics',
+  templateUrl: './stadistics.component.html',
+  styleUrls: ['./stadistics.component.scss']
 })
-export class StatisticsViewComponent implements OnInit {
+export class StadisticsComponent implements OnInit {
+
   students = STUDENTS;
   selectedStudent: Student;
-  
+
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
