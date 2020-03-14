@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@types/jquery": "^3.3.31",
-    "@types/select2": "^4.0.48",
+    "@types/select2": "^4.0.44",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.9.3",
     "jquery": "^3.4.1",
