@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Alumno } from './model/alumno';
-import { AlumnoService } from 'src/app/services/alumno.service';
+import { AlumnoService } from '../../../Services/alumno.service';
 
 @Component({
   selector: 'app-tables',
