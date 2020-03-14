@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HeaderComponent } from './Components/header/header.component';
-import { FooterComponent } from './Components/footer/footer.component';
 import { LoginComponent } from './Views/login/login/login.component';
 import { ResetPasswordRequestComponent } from './Views/login/reset-password-request/reset-password-request.component';
 
@@ -11,15 +9,8 @@ import { ResetPasswordRequestComponent } from './Views/login/reset-password-requ
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'login/reset-password', component: ResetPasswordRequestComponent },
-  {
-    path:'header',
-    component:HeaderComponent
-  },
-  {
-    path:'footer',
-    component:FooterComponent
-  },
-  { path: '**', pathMatch: 'full', redirectTo: 'login' }
+
+  //{ path: '**', pathMatch: 'full', redirectTo: 'login' }
 ]
 ;
 
