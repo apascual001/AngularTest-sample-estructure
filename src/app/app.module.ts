@@ -28,7 +28,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LayoutComponent
   ],
   imports: [
-    AppRoutingModule,
     BrowserModule,
     FormsModule,
     ChartsModule,
@@ -39,8 +38,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ReviewsModule,
     ClassroomModule,
     LoginModule,
-    AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
