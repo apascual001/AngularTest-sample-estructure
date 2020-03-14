@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { StudentSearch } from '../models/student-search';
+import { StudentSearch } from '../Models/student-search';
 import alumnos from '../../assets/json/alumnos.json';
 
 
