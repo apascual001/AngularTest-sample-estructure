@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 /* own */
-import { ExerciseService } from '../../../../services/exercise.service';
+import { ExerciseService } from '../../../../Services/exercise.service';
 import { Exercise } from '../tables/model/exercise';
 
 @Component({

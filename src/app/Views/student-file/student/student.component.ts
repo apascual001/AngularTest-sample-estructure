@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 /* services */
-import { ExerciseService } from '../../../services/exercise.service';
-import { StudentSearchService } from '../../../services/student-search.service';
+import { ExerciseService } from '../../../Services/exercise.service';
+import { StudentSearchService } from '../../../Services/student-search.service';
 /* ? */
-import { StudentSearchComponent} from './student-search/student-search.component';// ?
-import { Exercise } from './tables/model/exercise'; //?
+//import { StudentSearchComponent} from './student-search/student-search.component';// ?
+//import { Exercise } from './tables/model/exercise'; //?
 
 @Component({
   selector: 'app-student',

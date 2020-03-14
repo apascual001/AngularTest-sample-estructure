@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { StudentSearchService } from '../../../../services/student-search.service';
+import { StudentSearchService } from '../../../../Services/student-search.service';
 import { ActivatedRoute } from '@angular/router';
 
 

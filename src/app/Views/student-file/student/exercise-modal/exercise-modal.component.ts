@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker/';
 /* own */
-import { ExerciseService } from '../../../../services/exercise.service';
+import { ExerciseService } from '../../../../Services/exercise.service';
 import { Exercise } from '../tables/model/exercise';
 @Component({
   selector: 'app-exercise-modal',
