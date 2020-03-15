@@ -1,4 +1,4 @@
-import { Alumno } from './../Views/student-file/student/tables/model/alumno';
+import { Alumno } from '../Views/student-file/student-file-view/tables/model/alumno';
 import { Injectable } from '@angular/core';
 
 const ALUMNOS: Alumno[] = [

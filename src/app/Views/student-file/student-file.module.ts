@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 
 /* components & modules */
 import { StudentFileRoutingModule } from './student-file-routing.module';
-import { StudentComponent} from './student/student.component';
-import { StudentSearchComponent} from './student/student-search/student-search.component';
-import { FileStudentComponent } from './student/file-student/file-student.component';
-import { ExerciseModalComponent } from './student/exercise-modal/exercise-modal.component';
-import { ExercisesComponent } from './student/exercises/exercises.component';
-import { TablesComponent } from './student/tables/tables.component';
-import { TimeBarComponent } from './student/time-bar/time-bar.component';
+import { StudentFileViewComponent} from './student-file-view/student-file-view';
+import { StudentSearchComponent} from './student-file-view/student-search/student-search.component';
+import { FileStudentComponent } from './student-file-view/file-student/file-student.component';
+import { ExerciseModalComponent } from './student-file-view/exercise-modal/exercise-modal.component';
+import { ExercisesComponent } from './student-file-view/exercises/exercises.component';
+import { TablesComponent } from './student-file-view/tables/tables.component';
+import { TimeBarComponent } from './student-file-view/time-bar/time-bar.component';
 
 /* services*/
 import { StudentSearchService } from '../../Services/student-search.service';
@@ -22,7 +22,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 @NgModule({
   declarations: [
-    StudentComponent,
+    StudentFileViewComponent,
     StudentSearchComponent,
     FileStudentComponent,
     ExerciseModalComponent,

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Exercise } from './../Views/student-file/student/tables/model/exercise';
+import { Exercise } from '../Views/student-file/student-file-view/tables/model/exercise';
 
 
 @Injectable({
