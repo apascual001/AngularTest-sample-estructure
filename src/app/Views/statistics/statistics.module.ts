@@ -7,10 +7,10 @@ import { GenrepieComponent } from './stadistics/genrepie/genrepie.component';
 import { StatisticsRoutingModule } from './statistics-routing.module';
 import { StadisticsComponent } from './stadistics/stadistics.component';
 import { PeoplepieComponent } from './stadistics/peoplepie/peoplepie.component';
-
+import { StatisticsViewComponent } from './statistics-view/statistics-view.component'
 
 @NgModule({
-  declarations: [ StadisticsComponent, PeoplepieComponent, GenrepieComponent,TablesComponent],
+  declarations: [ StadisticsComponent, PeoplepieComponent, GenrepieComponent,TablesComponent, StatisticsViewComponent],
   imports: [
     CommonModule,
     ChartsModule,
