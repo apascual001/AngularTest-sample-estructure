@@ -4,7 +4,7 @@ import { StudentFileViewComponent } from './student-file-view/student-file-view'
 
 
 const routes: Routes = [
-  { path: 'student',  component: StudentFileViewComponent },
+  { path: 'student-file-view',  component: StudentFileViewComponent },
 
 ];
 

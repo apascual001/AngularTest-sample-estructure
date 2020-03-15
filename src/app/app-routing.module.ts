@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'login', component: LoginViewComponent },
   { path: 'login/reset-password', component: ResetPasswordRequestComponent },
 
-  //{ path: '**', pathMatch: 'full', redirectTo: 'login' }
+  { path: '**', pathMatch: 'full', redirectTo: 'login' }
 ]
 ;
 
