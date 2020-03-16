@@ -10,6 +10,9 @@ import { ClassroomSearchComponent } from './classroom-search/classroom-search.co
 // Services
 import { ClassroomService } from '../../Services/classroom.service';
 import { StudentSearchService } from '../../Services/student-search.service';
+import { AlumnoService } from '../../Services/alumno.service';
+import { Select2Module } from 'ng2-select2';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 // graficos
 import { ChartsModule } from 'ng2-charts';
@@ -35,11 +38,13 @@ import { FormsModule } from '@angular/forms';
     NgCircleProgressModule.forRoot({radius: 20, showBackground: true}),
     ModalModule.forRoot(),
     FormsModule,
+    Select2Module,
+    BsDatepickerModule.forRoot(),
     ClassroomRoutingModule
   ],
   providers: [
     ClassroomService,
-    //AlumnoService,
+    AlumnoService,
     StudentSearchService
   ]
 })
