@@ -5,6 +5,7 @@ import { ClassroomRoutingModule } from './classroom-routing.module';
 import { ClassroomViewComponent } from './classroom-view/classroom-view.component';
 import { ClassroomSeatsComponent } from './classroom-seats/classroom-seats.component';
 import { StudentPositionComponent } from './student-position/student-position.component';
+import { ClassroomSearchComponent } from './classroom-search/classroom-search.component';
 
 // Services
 import { ClassroomService } from '../../Services/classroom.service';
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     ClassroomViewComponent,
     ClassroomSeatsComponent, 
     StudentPositionComponent,
-    StudentPopupComponent
+    StudentPopupComponent,
+    ClassroomSearchComponent
   ],
   imports: [
     CommonModule,
