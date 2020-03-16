@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 /* components & modules */
 import { StudentFileRoutingModule } from './student-file-routing.module';
 import { StudentFileViewComponent} from './student-file-view/student-file-view';
-import { StudentSearchComponent} from '../../Components/student-search/student-search.component';
+import { StudentSearchComponent} from './student-file-view/student-search/student-search.component';
 import { FileStudentComponent } from './student-file-view/file-student/file-student.component';
 import { ExerciseModalComponent } from './student-file-view/exercise-modal/exercise-modal.component';
 import { ExercisesComponent } from './student-file-view/exercises/exercises.component';
