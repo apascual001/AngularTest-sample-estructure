@@ -8,7 +8,7 @@ import { StudentPositionComponent } from './student-position/student-position.co
 
 // Services
 import { ClassroomService } from '../../Services/classroom.service';
-//import { StudentSearchService } from 'src/app/services/student-search.service';
+import { StudentSearchService } from '../../Services/student-search.service';
 
 // graficos
 import { ChartsModule } from 'ng2-charts';
@@ -17,12 +17,13 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { StudentPopupComponent } from './student-popup/student-popup.component';
 
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     ClassroomViewComponent,
     ClassroomSeatsComponent, 
-    StudentPositionComponent, 
+    StudentPositionComponent,
     StudentPopupComponent
   ],
   imports: [
@@ -31,12 +32,13 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     TooltipModule.forRoot(),
     NgCircleProgressModule.forRoot({radius: 20, showBackground: true}),
     ModalModule.forRoot(),
+    FormsModule,
     ClassroomRoutingModule
   ],
   providers: [
     ClassroomService,
     //AlumnoService,
-    //StudentSearchService
+    StudentSearchService
   ]
 })
 export class ClassroomModule { }
