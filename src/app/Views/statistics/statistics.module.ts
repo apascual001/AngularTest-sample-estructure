@@ -9,12 +9,23 @@ import { StadisticsComponent } from './stadistics/stadistics.component';
 import { PeoplepieComponent } from './stadistics/peoplepie/peoplepie.component';
 import { StatisticsViewComponent } from './statistics-view/statistics-view.component'
 
+/* services */
+import {StatisticsService} from './../../Services/statistics.service';
+
 @NgModule({
-  declarations: [ StadisticsComponent, PeoplepieComponent, GenrepieComponent,TablesComponent, StatisticsViewComponent],
+  declarations: [ 
+    StadisticsComponent, 
+    PeoplepieComponent, 
+    GenrepieComponent,
+    TablesComponent, 
+    StatisticsViewComponent],
   imports: [
     CommonModule,
     ChartsModule,
     StatisticsRoutingModule,
+  ],
+  providers: [
+    StatisticsService
   ]
 })
 export class StatisticsModule { }
