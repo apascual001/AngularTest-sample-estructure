@@ -6,7 +6,7 @@ import { StudentFileRoutingModule } from './student-file-routing.module';
 import { StudentFileViewComponent} from './student-file-view/student-file-view';
 import { StudentSearchComponent} from './student-file-view/student-search/student-search.component';
 import { FileStudentComponent } from './student-file-view/file-student/file-student.component';
-import { ExerciseModalComponent } from './student-file-view/exercise-modal/exercise-modal.component';
+//import { ExerciseModalComponent } from './student-file-view/exercise-modal/exercise-modal.component';
 import { ExercisesComponent } from './student-file-view/exercises/exercises.component';
 import { TablesComponent } from './student-file-view/tables/tables.component';
 import { TimeBarComponent } from './student-file-view/time-bar/time-bar.component';
@@ -25,7 +25,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
     StudentFileViewComponent,
     StudentSearchComponent,
     FileStudentComponent,
-    ExerciseModalComponent,
+    //ExerciseModalComponent,
     ExercisesComponent,
     TablesComponent,
     TimeBarComponent

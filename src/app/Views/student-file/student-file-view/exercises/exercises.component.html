@@ -1,4 +1,6 @@
 <div class="container-fluid mt-3">
+  
+    <div *ngFor="let exercise of exercises"></div>
     <table class="table table-hover">
         <thead>
             <tr class="row text-center">
@@ -10,11 +12,11 @@
         </thead>
         <tbody>
             <tr *ngFor="let exercise of exercises" class="row text-center">
-                <td class="col-3">{{ exercise.name }}</td>
-                <td class="col-3">{{ exercise.state }}</td>
-                <td class="col-3">{{ exercise.date | date:"dd/MM/yyyy" }}</td>
+                <td class="col-3">{{ exercise.id }}</td>
+                <td class="col-3">{{ exercise.firstName }}</td>
+                <!-- <td class="col-3">{{ exercise.date_status | date:"dd/MM/yyyy" }}</td> -->
                 <td class="col-3">
-                    <app-exercise-modal [data]="exercise"></app-exercise-modal>
+                    <!-- <app-exercise-modal [data]="exercise"></app-exercise-modal> -->
                 </td>
             </tr>
 
